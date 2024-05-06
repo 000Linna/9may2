@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+
+}
+
+.hero {
+    height: 100%;
+    background: url(../img/1614382876_37-p-fon-dlya-prezentatsii-voennii-svetlii-40.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero__container {
+    min-height: 900px;
+    min-width: 1000px;
+    margin: 0 auto;
+    flex-direction: column;
+
+}
+
+.hero__content {
+    margin: 0 auto;
+}
+
+.content {}
+
+.title {
+    color: rgb(60, 7, 7);
+    padding-top: 50px;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.subtitile {
+    width: 520px;
+    height: 70px;
+    padding-top: 200px;
+    font-size: 26px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    padding-right: 40px;
+
+}
+
+.hero__img-wrap {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hero__img {
+    width: 450px;
+    height: 550px;
+    padding-bottom: 220px;
+    padding-right: 80px;
+    padding-left: 40px;
+}
+
+.information {
+    background: url(../img/1626155700_11-kartinkin-com-p-den-pobedi-fon-krasivo-12.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.information__container {
+    max-width: 3000px;
+    margin: 0 auto;
+}
+
+.information__titile {
+    color: rgb(60, 7, 7);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 32px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+
+.information__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information__item {}
+
+.information__img {
+    width: 300px;
+    height: 400px;
+}
+
+.end {
+    height: 500px;
+}
+
+.end__container {
+    height: 100%;
+    background: url(../img/1616028385_25-p-fon-pobedi-27.jpg) no-repeat;
+    background-size: cover;
+}
+
+.end__title-wrap {
+    display: flex;
+    justify-content: center;
+
+}
+
+.end__title {}
+
+.end__desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.poem {
+    margin: 40px;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(255, 250, 205, 0.658);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.text {}
+
+
+
+
+
+.portret {
+    margin: 20px;
+}
+
+.portret__title {
+    color: rgba(0, 0, 0, 0);
+}
+
+.portret__title:hover {
+    background-color: rgba(178, 34, 34, 0.338);
+    color: black;
+}
